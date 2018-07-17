@@ -5,8 +5,8 @@ inspect = require('util').inspect;
 var Busboy = require('busboy');
 
 const BUCKET_NAME = 'parangat-test';
-const IAM_USER_KEY = 'AKIAJMIZJ77RPEYLRHWQ';
-const IAM_USER_SECRET = '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';
+const IAM_USER_KEY = '';
+const IAM_USER_SECRET = '';
 
 
 function uploadToS3(res, file) {
